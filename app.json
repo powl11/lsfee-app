@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "LSFEE Info",
+    "slug": "lsfee-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#001a33"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lsfee.info"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#001a33"
+      },
+      "package": "com.lsfee.info"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "display": "standalone",
+      "backgroundColor": "#001a33",
+      "themeColor": "#001a33"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f25051e0-f089-4792-b1ae-58977b9e4e5d"
+      }
+    }
+  }
+}

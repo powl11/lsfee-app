@@ -1,0 +1,26 @@
+{
+  "name": "lsfee-app",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "homepage": "https://powl11.github.io/lsfee-app",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "deploy": "gh-pages -d web-build",
+    "predeploy": "expo export:web"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^14.0.0",
+    "expo": "~52.0.28",
+    "expo-status-bar": "~2.0.0",
+    "react": "18.3.1",
+    "react-native": "0.76.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "gh-pages": "^6.3.0"
+  },
+  "private": true
+}
